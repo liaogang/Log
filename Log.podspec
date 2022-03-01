@@ -92,9 +92,9 @@ Pod::Spec.new do |spec|
 
   spec.source_files = '*.{h,m}'
   #spec.source_files  = "*.{h,m}"
-  spec.exclude_files = ""
+  #spec.exclude_files = ""
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
